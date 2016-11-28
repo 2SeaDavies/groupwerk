@@ -15,6 +15,9 @@ VALUES (//variable names)
 
 
 
+INSERT INTO MAP (markerName,markerType,marketLAT,markerLNG,markerImg,markerDescr,adminApproved)
+VALUES (//variable names)
+
 
 
 ?>
