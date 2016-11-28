@@ -106,13 +106,12 @@ IF OBJECT_ID('MAP', 'U') IS NOT NULL
 DROP TABLE MAP
 GO
 
-
 CREATE TABLE MAP (
     markerID		int Identity(1,1)	NOT NULL,
 markerName		NVARCHAR(40)		NOT NULL,
 markerType		int					NOT NULL,
-markerLAT		NVARCHAR(20)		NOT NULL,
-markerLNG		NVARCHAR(20)		NOT NULL,
+markerLAT		FLOAT(10,6)		NOT NULL,
+markerLNG		FLOAT(10,6)		NOT NULL,
 markerImg		NVARCHAR(100)		NULL,
 markerDescript	NVARCHAR(100)		NULL,
 adminApproved	bit					NOT NULL
