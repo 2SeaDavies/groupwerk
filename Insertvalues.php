@@ -5,12 +5,13 @@
  * Date: 28/11/2016
  * Time: 15:14
  */
-$
 
 
 
 
-INSERT INTO USERLOGIN ()
+
+INSERT INTO USERLOGIN (username,password,accessLVL,email,sedQuestion,secAnswer,firstName,lastName)
+VALUES (//variable names)
 
 
 
